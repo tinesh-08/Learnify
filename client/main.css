@@ -1,0 +1,231 @@
+/* Navbar start */
+.navbar
+{
+    height: 4rem;
+    background: #27282C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand
+{
+    font-family: 'Italiana', serif;
+    font-size: 2em;
+    color: white;
+    margin-left: 3.7rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.a1
+{
+    color: white;
+}
+
+.container-fluid ul li a
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem;
+}
+
+.container-fluid ul li a img
+{
+    width: 1.4em;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.container-fluid ul li a:hover
+{
+    transform: translateY(-3px);
+    /* background: rgba(217, 217, 217, 0.25); */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+/* Navbar end */
+
+/* HOME PAGE  */
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(252, 82, 134);
+    text-shadow:0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666,
+             0 5px 0 #555555, 0 6px 0 #444444,
+             0 7px 0 #333333, 0 8px 7px rgba(0, 0, 0, 0.4),
+             0 9px 10px rgba(223, 221, 221, 0.2);
+    font-size: 80px;
+}
+
+.tagline{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#000000;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 30px;
+    color: rgb(75, 83, 155);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:0 1px 0 #999999, 0 2px 0 #888888,
+         0 9px 10px rgba(0, 0, 0, 0.2);
+    margin: 60px;
+}
+
+.d1
+{
+    margin-top: -25px;
+}
+
+.description{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* REGISTRATION PAGES */
+
+.register{
+    background: -webkit-linear-gradient(left, #be9fc9, #bf8ed1);
+}
+
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+}
+
+.register .register-form{
+    padding: 10% 10% 3% 10%;
+    margin-top: 5%;
+}
+
+.btnRegister{
+    float: right;
+    border: none;
+    border-radius: 1rem;
+    padding: 3%;
+    background: #be9fc9;
+    color: #fff;
+    font-weight: 700;
+    width: 50%;
+    cursor: pointer;
+}
+
+.register-heading{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: -10%;
+    color: #495057;
+}
+
+.btnRegister1{
+    float: right;
+    border: none;
+    border-radius: 1rem;
+    padding: 2%;
+    background: #be9fc9;
+    color: #fff;
+    font-weight: 700;
+    width: 25%;
+    cursor: pointer;
+}
+
+/* LOGIN PAGE  */
+
+.divn{
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+}
+
+.input-group-text{
+    width: 45px;
+}
+
+.loginfont{
+    font-size: 50px;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: serif;
+    color: black;
+}
+
+.loginbtn{
+    outline: #be9fc9;
+}
+.loginbtn:hover{
+    background-color: #be9fc9;
+}
+
+
+/* PRICING */
+
+h1{
+    color:#0d0d0e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:0 1px 0 #999999, 0 2px 0 #888888,
+             0 9px 10px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+}
+.card {
+    
+    padding: 10px 10px;
+  }
+
+.card::after {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+.card:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    backface-visibility: hidden;
+    will-change: transform;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+}
+
+.card:hover::after {
+    opacity: 1;
+}
+
+.card:hover .btn-outline-primary{
+    color:white;
+    background:#007bff;
+}
+
+.selectButton{
+    padding: 10px;
+    width: 150px;
+    background: #be9fc9;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/* eservices */
+.padding{
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
