@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "zc_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}
